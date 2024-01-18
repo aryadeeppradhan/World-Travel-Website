@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/9686ddc0d0.js" crossorigin="anonymous"></script><!--for logos used in webpage-->
-    <title>About Page</title>
+    <title>Contact Page</title>
 </head>
 <body>
     <nav class="navbar bg-dark">
@@ -18,53 +18,59 @@
             </ul>
         </div>
     </nav>
-    <section class="about">
-        <div class="container"><!--should be written inside about not outside-->
-            <h2 class="lg-heading text-black about-heading">About Us</h2>
-        <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ea eaque repudiandae quos vitae mollitia modi magni eveniet, maiores quod?</p>
-        <div class="about-wrapper">
-            <div class="left">
-                <ul>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                </ul>
+    <section class="contact-form">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="company-add">
+                    <div class="add-group">
+                        <i class="fas fa-map-marker-alt fa-3x text-red"></i>   
+                        <h2 class="text-gray md-heading">Location</h2>
+                        <p>KIIT University, Sikhar Chandi Road, Bhubaneswar</p>
+                    </div>
+                    <div class="add-group">
+                        <i class="fas fa-envelope fa-3x text-red"></i>
+                        <h2 class="text-gray md-heading">Email</h2>
+                        <p>worldtravel@gmail.com</p>
+                    </div>
+                    <div class="add-group">
+                        <i class="fas fa-phone-square fa-3x text-red"></i>
+                        <h2 class="text-gray md-heading">Call</h2>
+                        <p>+919876543210</p>
+                    </div>
+                    <img src="./img/company-img.jpg" alt="Company Image">
+                </div>
+                <form action="" class="form">
+                    <h1 class="lg-heading text-black">Contact Us</h1>
+                    <p class="text-gray">Let us know your questions, suggestions and concerns by filling out the contact form given below</p>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"> Write your message here</label>
+                        <textarea name="" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="form-btn">Submit</button>
+                </form>
+                
             </div>
-            <div class="right">
-                <ul>
-                <li>Lorem ipsum dolor sit.</li>
-                <li>Lorem ipsum dolor sit.</li>
-                <li>Lorem ipsum dolor sit.</li>
-            </ul></div>
         </div>
-        
-        <div class="counts">
-            <div class="count-item count-item1">
-                <span>2500</span>
-                <p>Travel</p>
-            </div>
-            <div class="count-item count-item2">
-                <span>500</span>
-                <p>Places</p>
-            </div>
-            <div class="count-item count-item3">
-                <span>400</span>
-                <p>Guide</p>
-            </div>
-            <div class="count-item count-item4">
-                    <span>2500</span>
-                    <p>Sport</p>
-            </div>
-        </div>
-        <div class="banner">
-            <div class="banner-left">
-                <p class="line">What are you waiting for? Call us right now.</p>
-            </div>
-            <div class="banner-right">
-                <a href="contact.html" class="btn-banner">Contact Us</a>
-            </div>
-        </div>
-    </div>
     </section>
+    <footer class="footer">
+        <div class="social-media-links">
+            <i class="fa-brands fa-instagram fa-4x"></i>
+            <i class="fa-brands fa-twitter fa-4x"></i>
+            <i class="fa-brands fa-facebook fa-4x"></i>
+        </div>
+        <p>World Travel &copy; 2024, All Rights Reserved</p>
+    </footer>
 </body>
 </html>
